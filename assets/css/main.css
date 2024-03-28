@@ -1,0 +1,161 @@
+@import url("font-awesome.min.css");
+@font-face{font-family:'Apercu';src:url('../fonts/ApercuBold.html')format('truetype');font-weight:normal;font-style:normal;}
+/*
+    Read Only by HTML5 UP
+    html5up.net | @n33co
+    Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+*/
+
+/* Reset */
+
+    html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        font: inherit;
+        vertical-align: baseline;
+    }
+
+    article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+        display: block;
+    }
+
+    body {
+        line-height: 1;
+		background:#5f6aaa;
+
+    }
+.footer{background:#464fe5;}
+    ol, ul {
+        list-style: none;
+    }
+
+    blockquote, q {
+        quotes: none;
+    }
+
+    blockquote:before, blockquote:after, q:before, q:after {
+        content: '';
+        content: none;
+    }
+
+    table {
+        border-collapse: collapse;
+        border-spacing: 0;
+    }
+
+    body {
+        -webkit-text-size-adjust: none;
+    }
+span.title{display:block;text-align:center;margin-bottom:120px;}
+div.copyrightainer{height:120px;background:#464fe5;padding:32px 0px;}
+ul.copyright{text-align:center;display:block;clear:both;width:87%;margin:0px auto;}
+ul.copyright li{float:left;display:inline-block;margin:12px;height:60px; width:60px;}
+ul.copyright li.twitter{background:#444;color:white;}
+#header{background-image: url('../images/graphic-2.html');background-size: contain;  background-repeat:no-repeat; background-position:top right;}
+#four{background-image: url('../images/graphic-7.html');background-size: contain;  background-repeat:no-repeat; background-position:bottom right;}
+h1, h2, h3{padding:12px 0px;font-family:'Apercu';}
+
+h1{font-size:26px;color:white;}
+
+h2{font-size:40px;color:white;}
+
+h3{font-size:26px;color:white;}
+.rotater {
+    animation: rotation 15s infinite linear;
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+.red{color:#0c0e2f;}
+p{font-family:"Helvetica Neue", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";padding-bottom:12px;line-height:1.4;font-size:16px;color:white;word-wrap:break-word;}
+.button{    background:#30c900;
+    border: 0;
+    border-radius: 24px;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    font-family:Apercu,sans-serif;
+    font-size: 18px;
+    font-size: 1.8rem;
+    font-variant-ligatures: none;
+    -webkit-font-variant-ligatures: none;
+    font-weight: 600;
+    letter-spacing: -.5px;
+    line-height: 1;
+    padding: 15px 19px;
+    position: relative;
+    text-align: center;
+    transition: all .5s ease-in-out;
+    width: 100%;}
+.button-white{
+    background:#FFF;
+    border: none;
+    color:#30c900;
+    cursor: pointer;
+    display: inline-block;
+    font-family: apercu,sans-serif;
+    font-size:24px;
+    font-weight: 600;
+    padding: 0 4px;
+    text-decoration-color: #dd0031;
+    text-decoration: none;
+	margin-bottom:12px;
+}
+input{border: 2px solid #f4f8f9;
+    border-radius: 5px;
+    color: #8e969c;
+    display: inline-block;
+    font-family: apercu,sans-serif;
+	text-align: center;
+    width: 100%;
+    margin-bottom: 12px;
+    background: #f9f9f9;
+	font-size:18px;
+}
+.button:hover {
+    background: linear-gradient(-180deg,#d0021b,#d0021b 49%,#af272f);
+    box-shadow: 0 2px 18px 0 rgba(0,0,0,.2);
+    color: #fff;
+}
+.central{text-align:center;}
+.tile{background:white;padding:16px 24px;color:#444;border-radius:9px;box-shadow: 1px 4px 8px #655b6414;margin:12px auto;width:78%;}
+.tile p, .tile h3{color:#444;}
+
+    @media screen and (max-width: 1280px) {
+
+        /* Basic */
+
+            body, input, select, textarea {
+                
+            }
+
+        /* Header */
+
+            #header {
+           
+            }
+
+        /* Wrapper */
+
+            #wrapper {
+         
+            }
+
+    }
+
+
+
+/* Small */
+
+    @media screen and (max-width:1000px) {
+
+    }
